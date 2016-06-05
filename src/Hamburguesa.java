@@ -5,7 +5,7 @@
 /*
     Creamos una clase abstracta para obligar a implementar nuestros métodos abstractos en todos los objs que hereden de ella.
     Aunque en este ejemplo todos los métodos son abstractos no se puede crear como interfaz, porque en nuestro decorador necesitamos
-    extenderla y no implementarla.
+    extenderla y no implementarla. Esta clase también podría ser una clase concreta y no abstracta.
  */
 public abstract class Hamburguesa {
 
